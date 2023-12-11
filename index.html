@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es-ES" prefix="og: http://ogp.me/ns#">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1,
+        shrink-to-fit=no">
+
+        <meta property="og:title" content="Wampus Club" />
+        <meta property="og:description" content="Dashboard Club Wampus" />
+        <meta property="og:url" content="http://mclautaro.cl/wampus" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image"
+            content="http://mclautaro.cl/wampus/img/logo-432.png" />
+        <meta property="og:site_name" content="Wampus Club" />
+        <link href="../img/logo-432.png" type="image/png" rel="icon" />
+        <link rel="shortcut icon" href="./favicon.ico"
+            type="image/vnd.microsoft.icon">
+
+        <meta name="description" content="Club Wampus">
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.9.0/feather.min.js"></script>
+        <script src="./js/dashboard.js"></script>
+        <script>
+           window.localStorage.setItem('url', window.location.href);
+        </script>
+
+        <title>Wampus Dashboard</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="assets/dist/css/signin.css" rel="stylesheet">
+        <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+    </head>
+
+    <body class="text-center">
+        <form class="form-signin" action="./dashboard/">
+            <img class="mb-4" src="./img/logo-432.png" alt width="180"
+                height="180">
+            <h1 class="h3 mb-3 font-weight-normal">Ingreso de Usuario</h1>
+            <label for="inputEmail" class="sr-only">email</label>
+            <input type="email" id="inputEmail" class="form-control"
+                placeholder="email" required autofocus>
+            <label for="inputPassword" class="sr-only">Contraseña</label>
+            <input type="password" id="inputPassword" class="form-control"
+                placeholder="Contraseña" required>
+
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Ingresar</button>
+            <p class="mt-5 mb-3 text-muted">&copy; 2023</p>
+        </form>
+    </body>
+
+</html>
