@@ -15,40 +15,145 @@
     <link href="assets/brand/logo-432.png" type="image/png" rel="icon" />
     <link rel="shortcut icon" href="./favicon.ico" type="image/vnd.microsoft.icon">
     <meta name="description" content="Club Wampus">
+    <title>Wampus Sushi Restobar</title>
+    <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="assets/dist/css/wampus.css" rel="stylesheet">
+    <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script>
         window.localStorage.setItem('url', window.location.href);
     </script>
 
-    <title>Wampus Sushi Restobar</title>
-    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/dist/css/wampus.css" rel="stylesheet">
 
 
 </head>
 
 <body class="text-center">
     <!-- Chef Bot-->
-    <header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon "></span>
+      </button>
+        <a class="navbar-brand" href="#">
+            <img src="assets/brand/wampus.png" alt=""> Housport </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"><i class="fa fa-home"></i> Inicio <span
+                     class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-sitemap"></i> ¿Quienes Somos?
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Misión y Visión</a>
+                        <a class="dropdown-item" href="#">Principios y Valores</a>
+                        <a class="dropdown-item" href="#">Organización</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Historia</a>
+
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-users"></i> Programas
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Dietas</a>
+                        <a class="dropdown-item" href="#">Rutinas</a>
+                        <a class="dropdown-item" href="#">Planes y Costos</a>
 
 
-    </header>
-    <main>
-        <section class="local">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none"><path  d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill" fill="#000000" fill-opacity="1"></path><path  d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill" fill="#000000" fill-opacity="1"></path><path  d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill" fill="#000000" fill-opacity="1"></path></svg>            Bienvenida
-            <h1>HOLA Bienvenido</h1>
-        </section>
-        <section class="carta">
-            La carta
-        </section>
-        <section class="social">
-            Social
-        </section>
-        <footer></footer>
+                    </div>
+                </li>
+            </ul>
 
-    </main>
+
+
+            <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+
+                <li class="nav-item">
+                    <a class="nav-link p-2" href="#" target="_blank" rel="noopener" aria-label="Campañas">
+                        <i class="fa fa-bullhorn"></i> Campañas
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link p-2" href="#" target="_blank" rel="noopener" aria-label="Twitter">
+                        <i class="fa fa-book"></i> Libro
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link p-2" href="#" target="_blank" rel="noopener" aria-label="Twitter">
+                        <i class="fa fa-envelope-o"></i> Mensajes
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+
+
+        <div class="dropdown">
+
+            <a class="btn btn-outline-success btn-sm  dropdown-toggle" href="#" id="Login" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i>
+            Usuario
+         </a>
+
+            <div class="dropdown-menu dropdown-menu-right " style="width: 250px;">
+                <form class="px-2 py-3 ">
+                    <div class="form-group">
+                        <label for="email">Usuario Registrado</label>
+                        <input type="email" class="form-control" id="email" placeholder="email@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Contraseña</label>
+                        <input type="password" class="form-control" id="password" placeholder="Contraseña">
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <center>
+                        <button type="submit" class="btn btn-primary btn-sm text-center">Ingresar</button></center>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+
+
+
+    <section class="local">
+        <div class="jumbotron">
+        </div>
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none"><path  d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill" fill="#000000" fill-opacity="1"></path><path  d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill" fill="#000000" fill-opacity="1"></path><path  d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill" fill="#000000" fill-opacity="1"></path></svg>
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="assets/img/platos/plato2.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Responsive left-aligned hero with image</h1>
+                    <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful
+                        JavaScript plugins.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+                        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer></footer>
+
+
 </body>
-<script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+
 
 </html>
