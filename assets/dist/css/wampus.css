@@ -1,5 +1,110 @@
  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&family=Montserrat:wght@500&display=swap');
+ .bd-placeholder-img {
+     font-size: 1.125rem;
+     text-anchor: middle;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     user-select: none;
+ }
+ 
+ @media (min-width: 768px) {
+     .bd-placeholder-img-lg {
+         font-size: 3.5rem;
+     }
+ }
+ 
+ @media (max-width: 991.98px) {
+     .offcanvas-collapse {
+         position: fixed;
+         top: 56px;
+         /* Height of navbar */
+         bottom: 0;
+         left: 100%;
+         width: 100%;
+         padding-right: 1rem;
+         padding-left: 1rem;
+         overflow-y: auto;
+         visibility: hidden;
+         background-color: #343a40;
+         transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+     }
+     .offcanvas-collapse.open {
+         visibility: visible;
+         transform: translateX(-100%);
+     }
+     .lema {
+         background: #f1f1f10e;
+         border-radius: 0.2rem;
+         color: #FFFA9FE8;
+         font-family: Just Me Again Down Here;
+         font-size: 2.5rem;
+         font-weight: 400;
+         position: absolute;
+         margin: 0.1rem 0.8rem 2rem 0.8rem;
+     }
+ }
+ 
+ .bi {
+     vertical-align: -.125em;
+     fill: currentColor;
+ }
+ 
+ .nav-scroller {
+     position: relative;
+     z-index: 2;
+     height: 2.75rem;
+     overflow-y: hidden;
+ }
+ 
+ .nav-scroller .nav {
+     display: flex;
+     flex-wrap: nowrap;
+     padding-bottom: 1rem;
+     margin-top: -1px;
+     overflow-x: auto;
+     text-align: center;
+     white-space: nowrap;
+     -webkit-overflow-scrolling: touch;
+ }
+ 
+ .btn-bd-primary {
+     --bd-orange-bg: #FB5104;
+     --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+     --bs-btn-font-weight: 600;
+     --bs-btn-color: var(--bs-white);
+     --bs-btn-bg: var(--bd-orange-bg);
+     --bs-btn-border-color: var(--bd-orange-bg);
+     --bs-btn-hover-color: var(--bs-white);
+     --bs-btn-hover-bg: #FFA500;
+     --bs-btn-hover-border-color: #FFA500;
+     --bs-btn-focus-shadow-rgb: var(--bd-orange-rgb);
+     --bs-btn-active-color: var(--bs-btn-hover-color);
+     --bs-btn-active-bg: #FB5104;
+     --bs-btn-active-border-color: #FB5104;
+ }
+ 
+ .bd-mode-toggle {
+     z-index: 1500;
+ }
+ 
+ .bd-mode-toggle .dropdown-menu .active .bi {
+     display: block !important;
+ }
+ 
+ .circle {
+     width: 50px;
+     height: 50px;
+     background-color: #FB5104;
+     border-radius: 50%;
+     position: fixed;
+     bottom: 12px;
+     right: 12px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
  html,
  body {
      height: 100%;
@@ -14,6 +119,22 @@
      background-attachment: fixed;
      background-image: url('../../img/local/local1.jpg');
      background-size: cover;
+ }
+ 
+ h5 {
+     color: #ffffff;
+     font-family: Just Me Again Down Here;
+     font-size: 2rem;
+     font-style: bold;
+     font-weight: 600;
+ }
+ 
+ h2 {
+     color: #370700;
+     font-family: Just Me Again Down Here;
+     font-size: 2rem;
+     font-style: bold;
+     font-weight: 600;
  }
  
  main {
@@ -46,6 +167,11 @@
      font-family: Montserrat;
  }
  
+ .text-bg-dark {
+     color: #fff!important;
+     background-color: #000000cf!important;
+ }
+ 
  .jumbotron {
      color: white;
  }
@@ -64,13 +190,10 @@
      background-color: #000;
  }
  
- section.local {
-     background-image: url('../../img/local/local1.jpg');
-     background-size: cover;
- }
- 
  section.carta {
-     background: linear-gradient(#066593, #06649329), url('../../img/local/local2.jpg');
+     background-position: top center;
+     background-attachment: fixed;
+     background: url('../../img/local/local2.jpg');
      background-size: cover;
  }
  
@@ -80,32 +203,21 @@
      color: white;
  }
  
- .rounded-50 {
-     border-radius: 50px;
- }
- 
  .lema {
+     background: #f1f1f10e;
+     border-radius: 0.2rem;
      color: #FFFA9FE8;
      font-family: Just Me Again Down Here;
      font-size: 2.5rem;
-     font-style: normal;
      font-weight: 400;
      position: absolute;
-     height: 100vh;
+     margin: 6rem 2.5rem;
  }
  
  .experiencia {
-     color: #FFF;
-     text-align: right;
-     font-family: Montserrat;
-     font-size: 19px;
+     background: linear-gradient(#fba9045c, #fba9049e);
+     border-radius: 0.2rem;
      font-style: italic;
-     font-weight: 500;
-     line-height: normal;
- }
- 
- .alto-500 {
-     height: 500px;
  }
  
  .b-divider {
