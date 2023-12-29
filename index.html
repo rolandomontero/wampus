@@ -25,15 +25,11 @@
     <script>
         window.localStorage.setItem('url', window.location.href);
     </script>
-
-
-
 </head>
 
-<body class="bg-body-tertiary">
-    <div class="circle" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Tooltip on top">
-        <img src="assets/img/icons/cheff.svg" width="32px" height="32px" alt="Pregunta al chef" title="Pregunta al chef.">
-
+<body>
+    <div class="circle tooltip-wp">
+        <img src="assets/img/icons/cheff.svg" width="32px" height="32px" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Pregunta al Chef.">
     </div>
     <!-- Chef Bot-->
 
@@ -98,94 +94,177 @@
 
     </nav>
     <main>
-        <div class="jumbotron">
-            <div class="b-divider negro"></div>
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none"><path  d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill" fill="#000000" fill-opacity="1"></path><path  d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill" fill="#000000" fill-opacity="1"></path><path  d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill" fill="#000000" fill-opacity="1"></path></svg>
-        </div>
 
-        <section class="h-100" class="">
-            <div class="container col-xxl-8">
-                <div class="row flex-lg-row align-items-center py-5 mt-lg">
-                    <div class="col-lg-6 align-items-center">
-                        <div id="carouselExperienciaWampus" class="carousel slide" data-bs-ride="true">
-                            <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#carouselExperienciaWampus" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#carouselExperienciaWampus" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                <button type="button" data-bs-target="#carouselExperienciaWampus" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                            </div>
-                            <div class="carousel-inner rounded-4">
-                                <div class="carousel-item active">
-                                    <img src="assets/img/ramen/ramen3.jpg" class="d-block w-100 h-100" alt="...">
 
-                                    <div class="carousel-caption d-md-block">
-                                        <h5>Daniel V.</h5>
-                                        <p class="experiencia">
-                                            Aquella vez que estuvimos en Wampus, pasamos una agradable noche con nuestros amigos.
-                                        </p>
+        <section class="local h-100">
+            <div class="jumbotron">
+                <div class="b-divider negro"></div>
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none"><path  d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill" fill="#000000" fill-opacity="1"></path><path  d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill" fill="#000000" fill-opacity="1"></path><path  d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill" fill="#000000" fill-opacity="1"></path></svg>
+            </div>
+            <article>
+                <div class="container col-xxl-8">
+                    <div class="row flex-lg-row align-items-center py-5">
+                        <div class="col-lg-6 align-items-center">
+                            <div id="carouselExperienciaWampus" class="carousel slide" data-bs-ride="true">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExperienciaWampus" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExperienciaWampus" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExperienciaWampus" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner rounded-4">
+                                    <div class="carousel-item active">
+                                        <img src="assets/img/ramen/ramen3.jpg" class="d-block w-100" alt="...">
+
+                                        <div class="carousel-caption d-md-block">
+                                            <h5>Daniel V.</h5>
+                                            <p class="experiencia">
+                                                Aquella vez que estuvimos en Wampus, pasamos una agradable noche con nuestros amigos.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/img/ramen/ramen1.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption  d-md-block">
+                                            <h5>Angélica M.</h5>
+                                            <p class="experiencia">
+                                                Invite a mi mamá, recordamos viejos tiempos, no reímos de las travesuras de mis hermanos.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/img/ramen/ramen2.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5>Felipe A.</h5>
+                                            <p class="experiencia">Fuimos con mi esposa a celebrar nuestro octavo aniversario, y la pasamos tal como la primera vez .</p>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="carousel-item">
-                                    <img src="assets/img/ramen/ramen1.jpg" class="d-block w-100" alt="...">
-                                    <div class="carousel-caption  d-md-block">
-                                        <h5>Angélica M.</h5>
-                                        <p class="experiencia">
-                                            Invite a mi mamá, recordamos viejos tiempos, no reímos de las travesuras de mis hermanos.</p>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="assets/img/ramen/ramen2.jpg" class="d-block w-100" alt="...">
-                                    <div class="carousel-caption d-md-block">
-                                        <h5>Felipe A.</h5>
-                                        <p class="experiencia">Fuimos con mi esposa a celebrar nuestro octavo aniversario, y la pasamos tal como la primera vez .</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExperienciaWampus" data-bs-slide="prev">
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExperienciaWampus" data-bs-slide="prev">
                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                           <span class="visually-hidden">Previous</span>
                         </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExperienciaWampus" data-bs-slide="next">
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExperienciaWampus" data-bs-slide="next">
                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
                           <span class="visually-hidden">Next</span>
                         </button>
+                            </div>
+                        </div>
+                        <div class="container col-lg-6 mb-3 py-5">
+                            <p class="lead lema lh-sm text-center">
+                                "En Wampus Club, compartimos sonrisas y vivimos momentos deliciosos juntos. Únete a nosotros, donde cada comida es una oportunidad para sonreír y disfrutar en familia."
+                            </p>
                         </div>
                     </div>
-                    <div class="container col-lg-6 mb-3 py-5 h-100" data-aos="fade-up">
-                        <p class="lead lema lh-1 text-center">
-                            "En Wampus Club, compartimos sonrisas y vivimos momentos deliciosos juntos. Únete a nosotros, donde cada comida es una oportunidad para sonreír y disfrutar en familia."
-                        </p>
-                    </div>
                 </div>
-            </div>
-
-
+            </article>
         </section>
-        <section class="carta  ">
+        <div class="b-divider negro" id="carta"></div>
+        <section class="carta">
 
-            <article id="carta">
+            <article>
+                <div class="b-divider negro wampus">
+                    <h2>La Carta</h2>
+                </div>
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none"><path  d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill" fill="#000000" fill-opacity="1"></path></svg>
                 <div class="album py-5 ">
                     <div class="container">
 
                         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                            <!-- Tablas Wampus -->
+
                             <div class="col">
-                                <div class="card shadow-sm">
-                                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                                <div class="card shadow-sm" data-aos="flip-up">
+                                    <img src="assets/img/carta/tabla1.png" class="rounded" alt="">
                                     <div class="card-body">
                                         <h5 class="card-title">Tabla 1</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        <p class="card-text">
+                                            <b> 24 bocados</b><br>
+                                            <small>
+                                            <ul>
+                                                <li>Makisushi <sub>(Palta o salmón)</sub></li>                                                
+                                                <li>1 california rolls <sub>(semillas mix)</sub></li>
+                                                <li>Hosomaki</li>
+                                            </ul>
+                                        </small>
+                                        </p>
                                         <div class="d-flex justify-content-between align-items-center">
-                                            <div class="btn-group">
-                                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="Tabla1" id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                             $13.900
+                                            </label>
                                             </div>
-                                            <small class="text-body-secondary"> 9 mins</small>
                                             <small class="text-body-secondary"> <i class="bi bi-alarm fs-5 text-body-secondary"></i> 9 mins</small>
 
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            <div class="col">
+                                <div class="card shadow-sm" data-aos="flip-left">
+                                    <img src="assets/img/carta/tabla2.png" class="rounded">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Tabla 2</h5>
+                                        <p class="card-text">
+                                            <b> 36 bocados</b><br>
+                                            <small>
+                                            <ul>
+                                                <li>Makisushi <sub>(Palta o salmón)</sub></li>                                                
+                                                <li>1 california rolls <sub>(semillas mix)</sub></li>
+                                                <li>Hosomaki</li>
+                                                <li>sashimi de salmón</li>
+                                                <li>nigiri</li>
+                                            </ul>
+                                        </small>
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="Tabla1" id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                             $21.900
+                                            </label>
+                                            </div>
+                                            <small class="text-body-secondary">
+                                                 <i class="bi bi-alarm fs-5 px-2 text-body-secondary"></i> 
+                                                 45 min</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <img src="assets/img/carta/tabla3.png" class="rounded">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Tabla 3</h5>
+                                        <p class="card-text">
+                                            <b> 50 bocados</b><br>
+                                            <small>
+                                            <ul>
+                                                <li>Makisushi <sub>(Palta o salmón)</sub></li>                                                
+                                                <li>1 california rolls <sub>(semillas mix)</sub></li>
+                                                <li>Hosomaki</li>
+                                                <li>sashimi de salmón</li>
+                                                <li>nigiri</li>
+                                                <li>panko camaron</li>
+                                            </ul>
+                                        </small>
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="Tabla1" id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                             $27.900
+                                            </label>
+                                            </div>
+                                            <small class="text-body-secondary">
+                                                 <i class="bi bi-alarm fs-5 px-2 text-body-secondary"></i> 
+                                                 60 min</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
                             <div class="col">
                                 <div class="card shadow-sm">
                                     <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
@@ -242,82 +321,7 @@
                                 </div>
                             </div>
 
-                            <div class="col">
-                                <div class="card shadow-sm">
-                                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                                    <div class="card-body">
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="btn-group">
-                                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                            </div>
-                                            <small class="text-body-secondary">9 mins</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card shadow-sm">
-                                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                                    <div class="card-body">
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="btn-group">
-                                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                            </div>
-                                            <small class="text-body-secondary">9 mins</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
 
-                            <div class="col">
-                                <div class="card shadow-sm">
-                                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                                    <div class="card-body">
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="btn-group">
-                                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                            </div>
-                                            <small class="text-body-secondary">9 mins</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card shadow-sm">
-                                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                                    <div class="card-body">
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="btn-group">
-                                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                            </div>
-                                            <small class="text-body-secondary">9 mins</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card shadow-sm">
-                                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                                    <div class="card-body">
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="btn-group">
-                                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                            </div>
-                                            <small class="text-body-secondary">9 mins</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
