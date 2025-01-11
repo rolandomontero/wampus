@@ -1,5 +1,12 @@
  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&family=Montserrat:wght@500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+ .acme-regular {
+  font-family: "Acme", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
  .bd-placeholder-img {
      font-size: 1.125rem;
      text-anchor: middle;
@@ -206,7 +213,7 @@
  section.local {
      background-position: top center;
      background-attachment: fixed;
-     background: url('../../img/local/local1.jpg');
+     background: url('../../images/local/local1.jpg');
      background-size: cover;
      height: 100vh;
  }
@@ -214,12 +221,12 @@
  section.carta {
      background-position: top center;
      background-attachment: fixed;
-     background: url('../../img/local/local2.jpg');
+     background: url('../../images/local/local2.jpg');
      background-size: cover;
  }
  
  section.social {
-     background: linear-gradient(#066593, #06649329), url('../../img/local/local3.jpg');
+     background: linear-gradient(#066593, #06649329), url('../../images/local/local3.jpg');
      background-size: cover;
      color: white;
  }

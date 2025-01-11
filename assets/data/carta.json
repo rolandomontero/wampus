@@ -1,0 +1,715 @@
+[
+  {
+      "category": "Maki-Sushi",
+      "imgPath": "assets/images/carta/maki.png",
+      "descriptions": "Rolls en cobertura de palta, salmon o queso (8 bocados)|",
+      "items": [
+          {
+              "name": "Avocado",
+              "ingredients": [
+                  "Salmón",
+                  "palta",
+                  "queso"
+              ],
+              "price": 7500
+          },
+          {
+              "name": "Ebi",
+              "ingredients": [
+                  "Camarón",
+                  "palta",
+                  "queso"
+              ],
+              "price": 7500
+          },
+          {
+              "name": "Atún rolls",
+              "ingredients": [
+                  "Atún",
+                  "palta",
+                  "queso"
+              ],
+              "price": 7500
+          },
+          {
+              "name": "Avocado ahumado",
+              "ingredients": [
+                  "Salmón ahumado",
+                  "palta",
+                  "queso"
+              ],
+              "price": 7500
+          },
+          {
+              "name": "Taka",
+              "ingredients": [
+                  "Pulpo",
+                  "palmito",
+                  "morrón",
+                  "queso"
+              ],
+              "price": 7500
+          },
+          {
+              "name": "Centolla rolls",
+              "ingredients": [
+                  "Centolla",
+                  "palta",
+                  "queso"
+              ],
+              "price": 7500
+          },
+          {
+              "name": "Wampus vegetariano",
+              "ingredients": [
+                  "Palmito",
+                  "palta",
+                  "queso"
+              ],
+              "price": 6900
+          },
+          {
+              "name": "Kanikama",
+              "ingredients": [
+                  "Kanikama",
+                  "champiñones",
+                  "morrón",
+                  "queso"
+              ],
+              "price": 6900
+          },
+          {
+              "name": "Teriyaki rolls",
+              "ingredients": [
+                  "Pollo",
+                  "champiñones",
+                  "queso"
+              ],
+              "price": 6900
+          }
+      ]
+  },
+  {
+      "category": "Rolls de la Casa",
+      "imgPath": "assets/images/carta/rolls.png",
+      "descriptions": "",
+      "items": [
+          {
+              "name": "Chango",
+              "ingredients": [
+                  "Salsa de locos",
+                  "con palmitos",
+                  "ciboullette",
+                  "mayonesa",
+                  "oliva",
+                  "crema"
+              ],
+              "price": 10900
+          },
+          {
+              "name": "Alacalufe",
+              "ingredients": [
+                  "Salmón macerado en soya",
+                  "cebollín",
+                  "limón"
+              ],
+              "price": 10900
+          },
+          {
+              "name": "Huilliche",
+              "ingredients": [
+                  "Salmón",
+                  "jengibre",
+                  "palta"
+              ],
+              "price": 7500
+          },
+          {
+              "name": "Selknam",
+              "ingredients": [
+                  "Salmón ahumado",
+                  "alcaparras",
+                  "tofu"
+              ],
+              "price": 7900
+          },
+          {
+              "name": "Wampus",
+              "ingredients": [
+                  "Camarones apanados",
+                  "cebollín",
+                  "queso"
+              ],
+              "price": 7500
+          }
+      ]
+  },
+  {
+      "category": "California Rolls",
+      "imgPath": "assets/images/carta/rolls.png",
+      "descriptions": "Rollos cubiertos en semillas\nEl roll se arma con una de las proteínas de la carta, más dos verduras a elección.",
+      "items": [
+          {
+              "name": " ",
+              "ingredients": [
+                  "sesamo",
+                  "chia",
+                  "avellana",
+                  "cibullete",
+                  "merkén"
+              ],
+              "price": 5500
+          }
+      ]
+  },
+  {
+      "category": "Futomaki",
+      "imgPath": "assets/images/carta/rolls.png",
+      "descriptions": "Gran Rollo 7 ingredientes",
+      "items": [
+          {
+              "name": "8 bocados",
+              "ingredients": [
+                  "tres proteínas",
+                  "tres verduras",
+                  "queso"
+              ],
+              "price": 8900
+          }
+      ]
+  },
+  {
+      "category": "Sushi Frito",
+      "imgPath": "assets/images/carta/frito.png",
+      "descriptions": "Panko / Tempura / Furay",
+      "items": [
+          {
+              "name": "Panko Rolls",
+              "ingredients": [
+                  "Rollo apanado (8 bocados)",
+                  "proteína",
+                  "queso",
+                  "verdura",
+                  "oliva",
+                  "crema"
+              ],
+              "price": 7500
+          },
+          {
+              "name": "Korokes Salmón",
+              "ingredients": [
+                  "Bolitas de arroz apanadas",
+                  "rellena con salmón",
+                  "queso",
+                  "6 unidades"
+              ],
+              "price": 6900
+          },
+          {
+              "name": "Korokes EBI",
+              "ingredients": [
+                  "Bolitas de arroz apanadas",
+                  "rellena con camarón",
+                  "queso",
+                  "6 unidades"
+              ],
+              "price": 6900
+          },
+          {
+              "name": "Korokes Pollo / Vegetariano",
+              "ingredients": [
+                  "Bolitas de arroz apanadas",
+                  "rellena con pollo (o verdura)",
+                  "queso",
+                  "6 unidades"
+              ],
+              "price": 6500
+          },
+          {
+              "name": "Camarones apanados",
+              "ingredients": [
+                  "8 unidades"
+              ],
+              "price": 4900
+          },
+          {
+              "name": "Crocantes de salmón",
+              "ingredients": [
+                  "8 unidades"
+              ],
+              "price": 6900
+          },
+          {
+              "name": "Yakiebi",
+              "ingredients": [
+                  "Brochetitas de Camarones y cebollín",
+                  "fritas en panko",
+                  "salsa agriodulce",
+                  "3 unidades"
+              ],
+              "price": 6900
+          }
+      ]
+  },
+  {
+      "category": "Nigiris y Hosomakis",
+      "imgPath": "assets/images/carta/nigiri.png",
+      "descriptions": "",
+      "items": [
+          {
+              "name": "Nigiris",
+              "ingredients": [
+                  "Centolla",
+                  "Sakanakataki",
+                  "Chango",
+                  "Masago",
+                  "Atún",
+                  "\n3 unidades"
+              ],
+              "price": 5900
+          },
+          {
+              "name": "Hosomakis",
+              "ingredients": [
+                  "Salmón",
+                  "S.ahumado",
+                  "Camarón",
+                  "Pulpo",
+                  "Kanikama",
+                  "Palta",
+                  "\n6 bocados"
+              ],
+              "price": 4900
+          }
+      ]
+  },
+  {
+      "category": "Wampus\nVegano",
+      "imgPath": "assets/images/carta/vegano.png",
+      "descriptions": "La mayoría de las variedades en rolls y tablas pueden ser adaptadas, veganas o vegetarianas.\nPara los fritos pedir Tempura vegano (sin huevo).",
+      "items": [
+          {
+              "name": "Vegan Wok",
+              "ingredients": [
+                  "Salteado con tofu",
+                  "champiñon",
+                  "zanahoria",
+                  "Zapallo italiano",
+                  "morrón",
+                  "acompañado con fideo de arroz."
+              ],
+              "price": 6900
+          },
+          {
+              "name": "Vegan Rolls",
+              "ingredients": [
+                  "Tofu",
+                  "lechuga",
+                  "jengibre",
+                  "champiñon"
+              ],
+              "price": 6500
+          }
+      ]
+  },
+  {
+      "category": "Ramen, Caldillo y\n Sopas",
+      "imgPath": "assets/images/carta/ramen.png",
+      "descriptions": "",
+      "items": [
+          {
+              "name": "Gran Ramen",
+              "ingredients": [
+                  "Caldo fortificado",
+                  "fideos",
+                  "carne de cerdo",
+                  "champiñón",
+                  "cebollín",
+                  "huevo duro y naruto artesanal."
+              ],
+              "price": 10900
+          },
+          {
+              "name": "Ramen",
+              "ingredients": [
+                  "Sopa con fideos",
+                  "cebollin",
+                  "medio huevo duro y trozo de salmón salteado"
+              ],
+              "price": 5900
+          },
+          {
+              "name": "Caldillo de Congrio\nA lo Pablo Neruda",
+              "ingredients": [
+                  "Receta original de la “oda al caldillo de congrio”",
+                  "consta de : ajo, cebolla, papas, tomate",
+                  "congrio y un toque de crema."
+              ],
+              "price": 12900
+          },
+          {
+              "name": "Miso",
+              "ingredients": [
+                  "Sopa a base de poroto de soya, salmón, cebollín",
+                  "nori y tofu"
+              ],
+              "price": 5900
+          }
+      ]
+  },
+  {
+      "category": "Salteados",
+      "imgPath": "assets/images/carta/salteado.png",
+      "descriptions": "",
+      "items": [
+          {
+              "name": "Salteado Teriyaki",
+              "ingredients": [
+                  "Salteado de pollo",
+                  "zapallo italiano",
+                  "cebollin",
+                  "morrón",
+                  "toque de jengibre",
+                  "sésamo Acompañado de fideos ramen o arroz de sushi",
+                  "c/salsa agridulce, opcional."
+              ],
+              "price": 10900
+          },
+          {
+              "name": "Yakitori",
+              "ingredients": [
+                  "Brochetitas de pollo y cebollín",
+                  "c/salsa agridulce, opcional."
+              ],
+              "price": 6900
+          },
+          {
+              "name": "Gyosas",
+              "ingredients": [
+                  "Especie de empanaditas en variedades de pollo",
+                  "camarón o cerdo; más jengibre",
+                  "cebollín",
+                  "repollo;\nsalteado en salsa de gyosas.\n4 unidades."
+              ],
+              "price": 4900
+          },
+          {
+              "name": "Chupe de Jaiba",
+              "ingredients": [
+                  "Pastel de jaiba con cebolla",
+                  "ajo, pimentón",
+                  "crema.\nGratinado con queso parmesano."
+              ],
+              "price": 12900
+          },
+          {
+              "name": "Pulpo / camarones al pil pil",
+              "ingredients": [
+                  "Trozos de pulpo o camarones",
+                  "salteados en\naceite de oliva",
+                  "ajo, cebollín y ají cacho’e cabra."
+              ],
+              "price": 12900
+          },
+          {
+              "name": "Surtido de mariscos\n al pil pil",
+              "ingredients": [
+                  "Surtido de mariscos",
+                  "salteados en\naceite de oliva",
+                  "ajo, cebollín y ají cacho’e cabra."
+              ],
+              "price": 12900
+          }
+      ]
+  },
+  {
+      "category": "Sin Arroz ",
+      "imgPath": "assets/images/carta/sinarroz.png",
+      "descriptions": "",
+      "items": [
+          {
+              "name": "Roll Sin arroz",
+              "ingredients": [
+                  "Rollo envuelto en palta",
+                  "salmón o queso.\n(2 proteínas + queso +3 verduras)\n8 bocados"
+              ],
+              "price": 10900
+          }
+      ]
+  },
+  {
+      "category": "Gohan",
+      "imgPath": "assets/images/carta/Gohan.png",
+      "descriptions": "",
+      "items": [
+          {
+              "name": "Gohan",
+              "ingredients": [
+                  "Pocillo de arroz con palta",
+                  "palmitos",
+                  "nori",
+                  "cebollín",
+                  "rosa de salmón y sésamo."
+              ],
+              "price": 8900
+          },
+          {
+              "name": "Gohan Sakana",
+              "ingredients": [
+                  "Pocillo de arroz más palta",
+                  "palmitos",
+                  "nori",
+                  "cebollín",
+                  "morrón con capa de Sakanakataki."
+              ],
+              "price": 9900
+          },
+          {
+              "name": "Sakanakataki",
+              "ingredients": [
+                  "Pocillo de salmón macerado en soya",
+                  "cebollín y limón",
+                  "acompañado de una bolita de arroz."
+              ],
+              "price": 9900
+          }
+      ]
+  },
+  {
+      "category": "Ensalada",
+      "imgPath": "assets/images/carta/ensalada.png",
+      "descriptions": "",
+      "items": [
+          {
+              "name": "Ensalada Japonesa",
+              "ingredients": [
+                  "Cama de lechuga, palta, kanikama",
+                  "palmitos",
+                  "choclillos",
+                  "camarones",
+                  "alcaparras",
+                  "cebollín",
+                  "coronada con rosa de salmón."
+              ],
+              "price": 12900
+          }
+      ]
+  },
+  {
+      "category": "Ceviche",
+      "imgPath": "assets/images/carta/ceviche.png",
+      "descriptions": "",
+      "items": [
+          {
+              "name": "Ceviche Wampus",
+              "ingredients": [
+                  "Salmón",
+                  "camarón",
+                  "cebolla",
+                  "choclo",
+                  "morrón",
+                  "cilantro",
+                  "mas leche “Nahuel”",
+                  "coronado con rosa de palta"
+              ],
+              "price": 12900
+          }
+      ]
+  },
+  {
+      "category": "Tataki",
+      "imgPath": "assets/images/carta/Tataki.png",
+      "descriptions": "",
+      "items": [
+          {
+              "name": "Tataki de Atún",
+              "ingredients": [
+                  "Lomo de Atún marinado con mirin y soya",
+                  " Sellado y cubierto de sésamo tostado, acompañado con palta y cebollines glaseado.\n7 cortes.",
+                  "cebolla",
+                  "choclo",
+                  "morrón",
+                  "cilantro",
+                  "mas leche “Nahuel”",
+                  "coronado con rosa de palta"
+              ],
+              "price": 12900
+          }
+      ]
+  },
+  {
+      "category": "Sashimi",
+      "imgPath": "assets/images/carta/Sashimi.png",
+      "descriptions": "",
+      "items": [
+          {
+              "name": "Salmón",
+              "ingredients": [
+                  "6 cortes"
+              ],
+              "price": 7500
+          },
+          {
+              "name": "Salmón",
+              "ingredients": [
+                  "9 cortes"
+              ],
+              "price": 10500
+          },
+          {
+              "name": "Salmón",
+              "ingredients": [
+                  "13 cortes"
+              ],
+              "price": 14500
+          },
+          {
+              "name": "Salmón",
+              "ingredients": [
+                  "18 cortes"
+              ],
+              "price": 19900
+          },
+          {
+              "name": "Atún o Pulpo",
+              "ingredients": [
+                  "6 cortes"
+              ],
+              "price": 8500
+          },
+          {
+              "name": "Atún o Pulpo",
+              "ingredients": [
+                  "9 cortes"
+              ],
+              "price": 11500
+          },
+          {
+              "name": "Atún o Pulpo",
+              "ingredients": [
+                  "13 cortes"
+              ],
+              "price": 15500
+          },
+          {
+              "name": "Atún o Pulpo",
+              "ingredients": [
+                  "18 cortes"
+              ],
+              "price": 20500
+          }
+      ]
+  },
+  {
+      "category": "Carpaccio",
+      "imgPath": "assets/images/carta/carpaccio.png",
+      "descriptions": "",
+      "items": [
+          {
+              "name": "Carpaccio Salmón",
+              "ingredients": [
+                  "Láminas finas de salmón con aceite de oliva",
+                  "limón",
+                  "pimienta",
+                  "alcaparras y queso parmesano rallado."
+              ],
+              "price": 14500
+          }
+      ]
+  },
+  {
+      "category": "Menú",
+      "imgPath": "assets/images/carta/sinarroz.png",
+      "descriptions": "lunes a viernes de 12hrs a 16hrs",
+      "items": [
+          {
+              "name": "Menú Wampus",
+              "ingredients": [
+                  "Sopa Ramen",
+                  "1/2 California Rolls (4)",
+                  "1/2 MakiSushi en palta (4)",
+                  "1 Bocado Nigiri",
+                  "Té o Café"
+              ],
+              "price": 7900
+          },
+          {
+              "name": "Menú Premium",
+              "ingredients": [
+                  "Sopa Ramen",
+                  "1/2 California Rolls (4)",
+                  "1/2 MakiSushi en queso (4)",
+                  "1 Bocado Nigiri",
+                  "Té o Café"
+              ],
+              "price": 9900
+          },
+          {
+              "name": "Menú Niños",
+              "ingredients": [
+                  "6 MINI KOROKES SIN RELLENO",
+                  "2 UNIDADES DE POLLO APANADOS",
+                  "2 UNIDADES DE SALMON APANADOS",
+                  "4 BOCADOS DE PANKO DE POLLO"
+              ],
+              "price": 6900
+          }
+      ]
+  },
+  {
+      "category": "Bebestible\nCafetería",
+      "imgPath": "assets/images/carta/bebestible.png",
+      "descriptions": "",
+      "items": [
+          {
+              "name": "",
+              "ingredients": [
+                  "TE / CAFE / INFUSIONES"
+              ],
+              "price": 1900
+          },
+          {
+              "name": "",
+              "ingredients": [
+                  "TE TWININGS"
+              ],
+              "price": 2200
+          },
+          {
+              "name": "",
+              "ingredients": [
+                  "BEBIDAS / AGUA MINERAL"
+              ],
+              "price": 2500
+          },
+          {
+              "name": "",
+              "ingredients": [
+                  "JUGOS NATURALES"
+              ],
+              "price": 3000
+          },
+          {
+              "name": "",
+              "ingredients": [
+                  "JUGOS DEL DIA / MANGO"
+              ],
+              "price": 3200
+          },
+          {
+              "name": "",
+              "ingredients": [
+                  "ENERGETICA CHICA"
+              ],
+              "price": 2500
+          },
+          {
+              "name": "",
+              "ingredients": [
+                  "ENERGETICA GRANDE"
+              ],
+              "price": 3000
+          }
+      ]
+  }
+]

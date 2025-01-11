@@ -1,0 +1,42 @@
+[
+    {
+      "imagePath": "assets/images/tablas/tabla1.png",
+      "tabla": "Tabla 1",
+      "bocados": "24 bocados",
+      "ingrediente":
+          "* Makisushi (Palta o salmón)\n * 1 california rolls (semillas mix) \n * Hosomaki",
+      "precio": "$ 15.500"
+    },
+    {
+      "imagePath": "assets/images/tablas/tabla2.png",
+      "tabla": "Tabla 2",
+      "bocados": "36 bocados",
+      "ingrediente":
+          "* Makisushi(Palta/salmón)\n* 1 california rolls(semillas mix) \n* Hosomaki\n6 sashimi de salmón, 6 Nigiris",
+      "precio": "$ 27.900"
+    },
+    {
+      "imagePath": "assets/images/tablas/tabla3.png",
+      "tabla": "Tabla 3",
+      "bocados": "50 bocados",
+      "ingrediente":
+          "* 2 Makisushi(Palta/salmón)\n* California rolls(semillas mix) \n * Hosomaki, 6 Nigiris\nPanko Camarón",
+      "precio": " $ 32.900"
+    },
+    {
+      "imagePath": "assets/images/tablas/tablacaliente.png",
+      "tabla": "Tabla Caliente",
+      "bocados": "23 bocados",
+      "ingrediente":
+          " * 8 Kookes\n * 1 Panko Camarón \n * 6 Camarones apanados",
+      "precio": " $ 23.900"
+    },
+    {
+      "imagePath": "assets/images/tablas/tablawampus.png",
+      "tabla": "Tabla Wampus",
+      "bocados": "33 bocados",
+      "ingrediente":
+          "* Makisushi (Palta o salmón) \n * 6 Kookes \n * 1 Panko Camarón  \n * 1 roll de la casa (Palta o salmón)",
+      "precio": " $ 32.900"
+    }
+]
